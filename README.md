@@ -27,6 +27,7 @@ According to the results, California has the highest total revenue among the sta
 Firstly, I collected dataset from the US Census Bureau and NASBO to make the map. 
 
 ![data collection: border line] (data_collection_states_line.jpg) 
+
 ![data collection: revenue] (data_collection_states_revenue.jpg)
 
 2. Adding the layer
