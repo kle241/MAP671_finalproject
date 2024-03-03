@@ -60,4 +60,4 @@ I demonstrated the value of total revenue of state government by using gradated 
 
 
 ### Final project link
-Please see the [final project](index.html)
+Please see the [final project](https://github.com/kle241/MAP671_finalproject/blob/main/graphic/Map_final_project_kle241.jpeg)
