@@ -26,25 +26,25 @@ According to the results, California has the highest total revenue among the sta
 1. Data collection
 Firstly, I collected dataset from the US Census Bureau and NASBO to make the map. 
 
-![data collection: border line] (/grapic/data_collection_states_line.jpg) 
+![data collection: border line] (grapic/data_collection_states_line.jpg) 
 
-![data collection: revenue] (/grapic/data_collection_states_revenue.jpg)
+![data collection: revenue] (grapic/data_collection_states_revenue.jpg)
 
 2. Adding the layer
 I added the layer of US states border line and the csv dataset regarding the total revenue of state government.
 
-![add layer] (/grapic/add_layer_dataset.jpg)
-![add layer2] (/grapic/add_layer_dataset2.jpg)
+![add layer] (grapic/add_layer_dataset.jpg)
+![add layer2] (grapic/add_layer_dataset2.jpg)
 
 3. Join the datasets
 To link two layers (dataset), I joined the US states border layer and the csv dataset of state’s total revenue.
 
-![join layer] (/grapic/Join_datasets.jpg)
+![join layer] (grapic/Join_datasets.jpg)
 
 4. Symbolization
 I demonstrated the value of total revenue of state government by using gradated method. I chose the 'mean value' variable to use the gradated method. Moreover, I chose the red color variation on the gradated method. Thus, light red color means the small total revenue of states, but dark red color means the large total revenue of state government.
 
-![symbolization] (/grapic/symbolization_revenue.jpg)
+![symbolization] (grapic/symbolization_revenue.jpg)
 
 ### Final project link
 
