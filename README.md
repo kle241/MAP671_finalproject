@@ -33,8 +33,8 @@ Firstly, I collected dataset from the US Census Bureau and NASBO to make the map
 2. Adding the layer
 I added the layer of US states border line and the csv dataset regarding the total revenue of state government.
 
-![add layer] (add_layer_dataset.jpg)
-![add layer2] (add_layer_dataset2.jpg)
+![add layer] (/add_layer_dataset.jpg)
+![add layer2] (/add_layer_dataset2.jpg)
 
 3. Join the datasets
 To link two layers (dataset), I joined the US states border layer and the csv dataset of state’s total revenue.

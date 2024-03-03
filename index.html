@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Web Page Template</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+			font-family: "Noto Sans", sans-serif;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: Lora, serif;
+			letter-spacing: .04em;
+		}
+
+		h2 {
+			font-family: Lora, serif;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<h1>Map of Total Revenue in State Government (Avg. 2000-2019)</h1>
+		<!-- Uncomment the iframe tag (inline web page frame) to show your slippy map, if you choose to make a slippy map -->
+		<iframe src="Map_final_1200 (width).jpeg" width="100%" height="640px"></iframe>
+        <a href='Map_final_project_kle241.jpeg' class="linkbox">Full-screen version with detail description</a>
+
+		<h2>Description</h2>
+
+		<p> This map is regarding the total revenue in state government from 2000 to 2019. The values of this map are 20 years(`00-`19) average value of total revenue. Given that the total revenue is considered as fiscal capacity, this map demonstrates fiscal capacity of state government.
+			In addition, AK and HI are excluded from this map due to the extreme values in total revenue. Thus, I removed these two states by using the winsorization of STATA. 
+		</p>
+
+		<h3>Program and Database Details</h3>
+		<p> Program: QGIS 3.36.0. Data: [1] Total Revenue: Historical Dataset Fiscal Survey of States from NASBO (2000-2019) and [2] Boundary shp: United States Census Bureau </p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub:
+				<a href="https://github.com/newmapsplus/map-671-qgis-zoom-kle241/blob/main/map-options/tiles.html">Kitae Lee</a>
+			</li>
+		</ul>
+	</section>
+
+
+</body>
+
+</html>
